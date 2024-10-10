@@ -1,4 +1,4 @@
-# Ansible Collection - octupus.o4n_automation_tools
+# Ansible Collection - o4n_automation_tools
 
 ## Octupus Collection
 
