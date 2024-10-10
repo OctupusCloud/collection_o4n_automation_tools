@@ -5,11 +5,11 @@
 namespace: octupus
 
 # The name of the collection. Has the same character restrictions as 'namespace'
-name: o4n_diff
+name: o4n_automation_tools
 
 # The version of the collection. Must be compatible with semantic versioning
 
-version: 3.0.7
+version: 2.0.1
 
 
 # The path to the Markdown (.md) readme file. This path is relative to the root of the collection
@@ -19,8 +19,6 @@ readme: README.md
 # @nicks:irc/im.site#channel'
 authors:
 - "Ed Scrimaglia <edscrimaglia@octupus.com>"
-- "Manuel Saldivar <manuel@octupus.com>"
-- "Marcos Schonfeld <marcos@octupus.com>"
 
 
 ### OPTIONAL but strongly recommended
@@ -38,7 +36,7 @@ license_file: ''
 
 # A list of tags you want to associate with the collection for indexing/searching. A tag name has the same character
 # requirements as 'namespace' and 'name'
-tags: [octupus, o4n, diff, compliance]
+tags: [octupus, o4n, automation]
 
 # Collections that this collection requires to be installed for it to be usable. The key of the dict is the
 # collection label 'namespace.name'. The value is a version range
