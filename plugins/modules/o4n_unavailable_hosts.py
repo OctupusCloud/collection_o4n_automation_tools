@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
 from __future__ import (absolute_import, division, print_function)
@@ -12,6 +12,9 @@ author: Ed Scrimaglia
 short_description: Test shh connection timeout
 version_added: "2.0.0"
 description: Ansible module for testing shh connection timeout
+
+requirements:
+  - Establecer `ansible_python_interpreter` a Python 3 si es necesario.
 
 options:
     type:
